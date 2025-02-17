@@ -13,26 +13,27 @@ This project was originally created by **Darshil Parmar**, and I executed it ste
 - **Querying:** SQL (Athena)  
 
 ## Project Workflow  
-**Data Collection**  
+1) **Data Collection**  
    - Downloaded **YouTube Trending Videos Dataset** from Kaggle.  
    - Stored raw data in **Amazon S3**.  
 
-**Data Cleaning & Processing**  
+2) **Data Cleaning & Processing**  
    - Used **AWS Lambda** to clean JSON data and convert it to **Parquet format** for better performance.  
 
-**Data Cataloging**  
+3) **Data Cataloging**  
    - Created a **Glue Crawler & Data Catalog** to organize metadata.  
 
-**Querying & Analysis**  
+4) **Querying & Analysis**  
    - Ran **SQL queries in AWS Athena** to extract insights.  
 
-**ETL Automation**  
+5) **ETL Automation**  
    - Built an **AWS Glue ETL Job** to transform raw CSV data into structured format.  
 
-**Partitioning & Optimization**  
+6) **Partitioning & Optimization**  
    - Partitioned data **by region** to improve query efficiency.  
 
-## 🔹 AWS Services Used  
+
+## AWS Services Used  
 - **Amazon S3** – Stores raw and processed data.  
 - **AWS Glue** – Automates ETL and builds a data catalog.  
 - **AWS Lambda** – Transforms raw data into a structured format.  
